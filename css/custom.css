@@ -3,3 +3,127 @@
 .navbar-inverse .navbar-brand {
 	color: red;
 }
+
+.social-media {
+	margin-top: 5px;
+	text-align: right;
+}
+
+.social-media img {
+	width: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/* carousel */
+
+.carousel-caption h1 {
+	font-size: 34px;
+}
+
+.background img {
+	height: 500px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* featurettes */
+.featurette .featurette-heading {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.featurette.divider {
+	margin: 70px;
+}
+
+
+#featurette-footer {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.featurette-image {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.featurette-image img {
+	margin-right: -30px;
+}
+
+#abcrc {
+	margin-top: 0px;
+	height: 50%;
+	width: 50%;
+}
+
+#bcmb {
+	height: 65%;
+	width: 65%;
+}
+
+#depot {
+	height: 50%;
+	width: 50%;
+}
+
+/* Bottle Drive Page Featurettes */
+
+h2>a {
+	color: #5a5a5a;
+}
+
+h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.bottle-drive-divider {
+	margin: 40px;
+}
+
+#step1 {
+	width: 45%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#step2 {
+	width: 60%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+#step3 {
+	width: 80%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#step4 {
+	width: 130%;
+	padding-top: 120px;
+	padding-bottom: 0px;
+}
+
+#step5 {
+	width: 75%;
+	padding-bottom: 0px;
+	padding-top: 50px;
+}
+/* footer */
+
+.center {
+	text-align: center;
+}
+
+.copyright {
+	font-size: 12px;
+	margin-top: 34px;
+}
+
+.back-to-top {
+	margin-top: 34px;
+}
