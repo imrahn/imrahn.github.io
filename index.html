@@ -9,7 +9,15 @@
     <meta name="description" content="Deerfoot Bottle Depot is Calgary's number one recycling centre in the city.  We offer the best service and the most up to day technology to make your visit as pleasant as possible">
     <meta name="Bottle Depot" content="Deerfoot Bottle Depot Calgary">
     <link rel="icon" href="../../favicon.ico">
-
+    <script>
+    // Load this when the DOM is ready
+    $(function(){
+      // You used .myCarousel here. 
+      // That's the class selector not the id selector,
+      // which is #myCarousel
+      $('#myCarousel').carousel();
+    });
+    </script>
     <title>Deerfoot Bottle Depot</title>
 
     <!-- Bootstrap core CSS -->
@@ -21,15 +29,7 @@
     <!-- Include Font-Awesome -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
-    <script>
-    // Load this when the DOM is ready
-    $(function(){
-      // You used .myCarousel here. 
-      // That's the class selector not the id selector,
-      // which is #myCarousel
-      $('#myCarousel').carousel();
-    });
-    </script>
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -223,7 +223,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
