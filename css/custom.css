@@ -64,7 +64,7 @@
 	padding-top: 15px;
 	padding-bottom: 9px;
 	margin: 6px 0px;
-	border-radius: 8px;
+	border-radius: 100px;
 	background-color: #eee;
 	box-shadow: 0 1px 1px #999;
 }
@@ -78,6 +78,7 @@
 #bcmb {
 	height: 50%;
 	width: 50%;
+	padding-top: 0px;
 }
 
 #dabda {
