@@ -9,15 +9,7 @@
     <meta name="description" content="Deerfoot Bottle Depot is Calgary's number one recycling centre in the city.  We offer the best service and the most up to day technology to make your visit as pleasant as possible">
     <meta name="Bottle Depot" content="Deerfoot Bottle Depot Calgary">
     <link rel="icon" href="../../favicon.ico">
-    <script>
-    // Load this when the DOM is ready
-    $(function(){
-      // You used .myCarousel here. 
-      // That's the class selector not the id selector,
-      // which is #myCarousel
-      $('#myCarousel').carousel();
-    });
-    </script>
+
     <title>Deerfoot Bottle Depot</title>
 
     <!-- Bootstrap core CSS -->
@@ -28,8 +20,6 @@
 
     <!-- Include Font-Awesome -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-
-
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -59,13 +49,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">Deerfoot Bottle Depot</a>
+              <a class="navbar-brand" href="#">Deerfoot Bottle Depot</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="bottle-drive.html">Bottle Drive</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">Bottle Drive</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
                 <div class="social-media">
                   <!-- Facebook -->
@@ -96,17 +86,17 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="images/background.jpg" alt="First slide">
+          <img class="first-slide" src="images/test1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Bottle Drives Are Easy with Deerfoot Bottle Depot.</h1>
               <p>At Deerfoot Bottle Depot we understand that importance of bottle drives for non profit orgnizations so we excel in our bottle drive services.</p>
-              <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Book Your Bottle Drive Today</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Book Your Bottle Drive Today</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="images/10cent-image.jpg" alt="Second slide">
+          <img class="second-slide" src="images/test2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Bring Your Empties In, We Do The Rest</h1>
@@ -116,7 +106,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="images/25cent-image.jpg" alt="Third slide">
+          <img class="third-slide" src="images/test3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Come Back And Collect Your Cash</h1>
@@ -190,9 +180,15 @@
           <p class="lead">All beverage containers in Alberta are now accepted at bottle depots for a refund of 10 cent or 25 cent deposit paid on them in stores. One Litre and less will return 10 cents and over one Litre will return 25 cents!</p>
         </div>
         <div class="col-sm-5">
-          <a href="https://www.abcrc.com" target="_blank"><img id="abcrc" class="featurette-image img-responsive center-block" src="images/abcrc.png" alt="ABCRC image"></a>
-          <a href="http://www.bcmb.ab.ca" target="_blank"><img id="bcmb" class="featurette-image img-responsive center-block" src="images/bcmb.jpg" alt="ABCRC image"></a>
-          <a href="http://www.albertadepot.ca" target="_blank"><img id="depot" class="featurette-image img-responsive center-block" src="images/depot.jpg" alt="Alberta Depot image"></a>
+          <div class="index-image"
+            <a href="https://www.abcrc.com" target="_blank"><img id="abcrc" class="featurette-image img-responsive center-block" src="images/abcrc.png" alt="ABCRC image"></a>
+          </div>
+          <div class="index-image">
+            <a href="http://www.bcmb.ab.ca" target="_blank"><img id="bcmb" class="featurette-image img-responsive center-block" src="images/bcmb.png" alt="BCMB image"></a>
+          </div>
+          <div class="index-image">
+            <a href="http://www.albertadepot.ca" target="_blank"><img id="abda" class="featurette-image img-responsive center-block" src="images/abda.png" alt="Alberta Depot image"></a>
+          </div>
         </div>
       </div>
 
@@ -223,7 +219,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

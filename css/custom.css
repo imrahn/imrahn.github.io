@@ -28,6 +28,14 @@
 }
 
 /* featurettes */
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: justify;
+  font-size: 18px;
+}
+
 .featurette .featurette-heading {
 	margin-top: 0px;
 	margin-bottom: 20px;
@@ -52,6 +60,15 @@
 	margin-right: -30px;
 }
 
+.index-image {
+	padding-top: 15px;
+	padding-bottom: 9px;
+	margin: 6px 0px;
+	border-radius: 8px;
+	background-color: #eee;
+	box-shadow: 0 1px 1px #999;
+}
+
 #abcrc {
 	margin-top: 0px;
 	height: 50%;
@@ -59,11 +76,11 @@
 }
 
 #bcmb {
-	height: 65%;
-	width: 65%;
+	height: 50%;
+	width: 50%;
 }
 
-#depot {
+#dabda {
 	height: 50%;
 	width: 50%;
 }
