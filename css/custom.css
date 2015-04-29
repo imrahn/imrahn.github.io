@@ -79,7 +79,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.featurette-divider {
+.row>.featurette-divider {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
