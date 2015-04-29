@@ -1,4 +1,27 @@
+
+/* Background */
+
+body {
+	background-image: url("../images/background2.jpg");
+}
+
+.marketing {
+	background-color: white;
+}
+
+
 /* Navbar */
+
+#navbar {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.navbar-wrapper .container {
+  padding-right: 0px;
+  padding-left: 0px;
+
+ }
 
 .navbar-inverse .navbar-brand {
 	color: red;
@@ -17,6 +40,18 @@
 
 /* carousel */
 
+
+#myCarousel {
+	margin-bottom: 0px;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.carousel {
+	margin-top: 70px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .carousel-caption h1 {
 	font-size: 34px;
 }
@@ -28,6 +63,10 @@
 }
 
 /* featurettes */
+
+.row {
+	padding-top: 50px;
+}
 
 .marketing .col-lg-4 p {
   margin-right: 10px;
@@ -64,7 +103,7 @@
 	padding-top: 15px;
 	padding-bottom: 9px;
 	margin: 6px 0px;
-	border-radius: 100px;
+	border-radius: 8px;
 	background-color: #eee;
 	box-shadow: 0 1px 1px #999;
 }
@@ -76,10 +115,8 @@
 }
 
 #bcmb {
-	height: 45%;
-	width: 45%;
-	padding-top: 13px;
-	padding-bottom: 33px;
+	height: 50%;
+	width: 50%;
 }
 
 #dabda {

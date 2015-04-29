@@ -34,6 +34,7 @@
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
 
+
     <script>
       // Load this when the DOM is ready
       $(function(){
@@ -49,7 +50,7 @@
 ================================================== -->
   <body>
     <div class="navbar-wrapper">
-      <div class="container">
+      <div id="navbar" class="container">
 
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
@@ -60,7 +61,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">Deerfoot Bottle Depot</a>
+              <a class="navbar-brand" href="#">Deerfoot Bottle Depot</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -82,61 +83,62 @@
           </div>
         </nav>
 
-      </div>
-    </div>
+      </div><!-- container -->
+    </div><!-- Navbar-wrapper -->
 
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="images/test1.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Bottle Drives Are Easy with Deerfoot Bottle Depot.</h1>
-              <p>At Deerfoot Bottle Depot we understand that importance of bottle drives for non profit orgnizations so we excel in our bottle drive services.</p>
-              <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Book Your Bottle Drive Today</a></p>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="first-slide" src="images/test1.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Bottle Drives Are Easy with Deerfoot Bottle Depot.</h1>
+                <p>At Deerfoot Bottle Depot we understand that importance of bottle drives for non profit orgnizations so we excel in our bottle drive services.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Book Your Bottle Drive Today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="second-slide" src="images/test2.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Bring Your Empties In, We Do The Rest</h1>
+                <p>Feel good knowing that whenever you recycle your containers, you’re helping make the world a more environmentally sound place to live</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="third-slide" src="images/test3.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Come Back And Collect Your Cash</h1>
+                <p>Don’t throw away your hard earned money! Return your beverage containers and get cash in exchange!</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="item">
-          <img class="second-slide" src="images/test2.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Bring Your Empties In, We Do The Rest</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Book Your Bottle Drive Today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="images/test3.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Come Back And Collect Your Cash</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="contact.html" role="button">Book Your Bottle Drive Today</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
-
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><!-- /.carousel -->
+    </div><!-- /.container -->
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -230,7 +232,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
