@@ -1,16 +1,6 @@
-
-    <!-- php for contact form
-    ================================================== -->
-
-    <?php
-
-      if ($_POST["submit"]) {
-
-        $result='<div class="alert alert-success">Form submitted</div>';
-      }
-
-    ?>
-
+<?php
+ echo "mail not sent";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -183,3 +173,4 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+
