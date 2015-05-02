@@ -10,7 +10,7 @@
     <meta name="Bottle Depot" content="Deerfoot Bottle Depot Calgary">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Deerfoot Bottle Depot | Bottle Drive</title>
+    <title>Deerfoot Bottle Depot | Contact</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,8 +54,8 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="bottle-drive.html">Bottle Drive</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="bottle-drive.html">Bottle Drive</a></li>
+                <li class="active"><a href="contact.php">Contact</a></li>
               </ul>
                 <div class="social-media">
                   <!-- Facebook -->
@@ -79,7 +79,7 @@
     ================================================== -->
 	 <div class="container"> 
      <div class="background">
-	     <img src="images/test2.jpg" alt="Deerfoot Bottle Depot">
+	     <img src="images/test3.jpg" alt="Deerfoot Bottle Depot">
      </div>
    </div>
 
@@ -88,92 +88,54 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
+
     <div class="container marketing">
 
 
       <!-- START THE FEATURETTES -->
 
       <div class="row featurette">
-        <div class="col-sm-8 step1">
-          <h2 class="bottle-drive-heading">Step 1: <a href="contact.html">Book Your Bottle Drive</a></h2>
-          <ul class="lead">
-          	<li>Contact us by phone or email</li>
-          	<li>Schedule your drive so it doesn't conflict with other drives in the area</li>
-          	<li>We will outline exactly what you can return and what they're worth</li>
-          	<li>We will give you a nifty door hanger to let people know you are coming</li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <img id="step1" class="featurette-image img-responsive center-block" src="images/step1.jpg" alt=" Book Bottle Drive image">
+        <div class="col-sm-6 contact-form">
+          <h2 class="contaxt">Book Your Bottle Drive</h2>
+          <?php echo $result; ?>
+          <form method="post">
+
+            <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" class="form-control" placeholder="Your Name" />
+            </div>
+
+             <div class="form-group">
+            <label for="email">Your E-Mail:</label>
+            <input type="email" name="email" class="form-control" placeholder="Your E-Mail" />
+            </div>
+
+             <div class="form-group">
+            <label for="phone">Your Phone Number:</label>
+            <input type="phone" name="phone" class="form-control" placeholder="(xxx) xxx-xxxx" />
+            </div>
+
+            <div class="form-group">
+            <label for="date">Date of Bottle Drive:</label>
+            <input type="date" name="date" class="form-control" />
+            </div>
+
+             <div class="form-group">
+            <label for="comment">Any Additional Comments:</label>
+            <textarea class="form-control" name="comment"></textarea> 
+            </div>
+
+            <input type="submit" name="submit" class="btn btn-lg btn-primary" value="Submit" />
+            
+
+          </form>
+        </div><!-- Row Featurette end -->
+        <div class="col-sm-6">
+          <p>your text here</p>
         </div>
       </div>
 
-	     <hr class="bottle-drive-divider">
-
-      <div class="row featurette">
-        <div class="col-sm-8">
-          <h2 class="bottle-drive-heading">Step 2: Gather the Troops</h2>
-          <ul class="lead">
-          	<li>Form an organizing group and assign everyone a responsibility</li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <img id="step2" class="featurette-image img-responsive center-block" src="images/step2.jpg" alt="Gather Troops Image">
-        </div>
-      </div>
-
-      <hr class="bottle-drive-divider">
-
-       <div class="row featurette">
-        <div class="col-sm-8">
-          <h2 class="bottle-drive-heading">Step 3: Plan Your Routes</h2>
-          <ul class="lead">
-          	<li>Concentrate on residential areas and check with managers and superintendents of apartment buildings to see if you can get in with flyers and to pick up containers</li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <img id="step3" class="featurette-image img-responsive center-block" src="images/step3.jpg" alt="Plan Route Image">
-        </div>
-      </div>
-
-      <hr class="bottle-drive-divider">
-
-      <div class="row featurette">
-        <div class="col-sm-8">
-          <h2 class="bottle-drive-heading">Step 4: Get The Word Out On The Street</h2>
-          <ul class="lead">
-          	<li>Signs, signs, everywhere a sign</li>
-          	<li>Print simple flyers with the name of your team, the date, the time of collection, and a list of what you need. It's good to have a specific reason for the drive - a set of jerseys, a field trip, some new equipment - so people understand what they are taking part in.</li>
-          	<li>Go door to door</li>
-          		<ul>
-          			<li>Deliver a door hanger (supplied by us) to EVERY home in your collection area, about a week or so before the drive</li>
-          		</ul>
-          	<li>Don't forget PSAs (Public Service Announcements)</li>
-          		<ul>
-          			<li>Write a short description with a date, time, area, and reason for the drive, and send it to the newspaper and radio public service departments. It's free!</li>
-          		</ul>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <img id="step4" class="featurette-image img-responsive center-block" src="images/step4.png" alt="Man Yelling Into Megaphone Image">
-        </div>
-      </div>
-
-      <hr class="bottle-drive-divider">
-
-      <div class="row featurette">
-        <div class="col-sm-8">
-          <h2 class="bottle-drive-heading">Step 5: The Day Of The Drive</h2>
-          <ul class="lead">
-          	<li>The big day is here! Be early. Make sure you've got lots of boxes and bags. You might want to consider planning a lunch or snacks for your volunteers</li>
-          	<li>Get on the street, and get collecting. It's a great idea to wear a "bottle drive uniform" - team jerseys, caps, or whatever the case may be. Consider signs for vehicles too. And remember - be sure to separate containers by appropriate type. You'll soon find out how fast it adds up!</li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <img id="step5" class="featurette-image img-responsive center-block" src="images/step5.jpg" alt="Car With Bottle Image"></a>
-        </div>
-      </div>
-
+	     
       <hr class="bottle-drive-divider">
 
       <!-- /END THE FEATURETTES -->
@@ -208,3 +170,4 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+
